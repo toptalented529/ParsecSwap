@@ -108,10 +108,10 @@
       "logoURI": "https://pancakeswap.finance/images/tokens/0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096.png"
     },
     {
-      "name": "Ellipsis",
-      "symbol": "EPS",
-      "address": "0xA7f552078dcC247C2684336020c03648500C6d9F",
-      "chainId": 56,
+      "name": "uETH",
+      "symbol": "uETH",
+      "address": "0x881D1cB339FD2F02a0bF2b237d674C32BE7ACBBC",
+      "chainId": 1339,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0xA7f552078dcC247C2684336020c03648500C6d9F.png"
     },
@@ -126,7 +126,7 @@
     {
       "name": "MOS",
       "symbol": "MOS",
-      "address": "0xdFe5e9286297e47f7026BD193573dbCF303E7019",
+      "address": "0xB394A074d79E16607f70A8784a6D17bB7e967613",
       "chainId": 1339,
       "decimals": 18,  
       "logoURI": "https://znxscan.com/images/tokens/0xBF921f94Fd9eF1738bE25D8CeCFDFE2C822c81B0.png"
@@ -134,7 +134,7 @@
     {
       "name": "Parsec",
       "symbol": "PSC",
-      "address": "0x43d60fBa4A400D63A629FcB0F0E12C4B1B9f9b4A",
+      "address": "0xc4aae51F841b739253F7aDC29031E06814549747",
       "chainId": 1339,
       "decimals": 18,
       "logoURI": "https://znxscan.com/images/tokens/0xBF921f94Fd9eF1738bE25D8CeCFDFE2C822c81B0.png"
@@ -150,7 +150,7 @@
     {
       "name": "USDT",
       "symbol": "USDT",
-      "address": "0xF5745d85f49325Fb6E3Eb1bAc77045F39808dAE1",
+      "address": "0xDAFC7D2C8577887eD540F948c991aA3A39eC7f87",
       "chainId": 1339,
       "decimals": 18,
       "logoURI": "https://znxscan.com/images/tokens/0x9ab7CA8a88F8e351f9b0eEEA5777929210199295.png"
@@ -164,17 +164,17 @@
       "logoURI": "https://znxscan.com/images/tokens/0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd.png"
     },
     {
-      "name": "BTCB",
-      "symbol": "BTCB",
-      "address": "0x74baC7E4cfBea8F71d4ea6ce3C190bFce61Bc22E",
-      "chainId": 56,
+      "name": "uBTC",
+      "symbol": "uBTC",
+      "address": "0x8d9e56AAE78E98Ab7d4C39f8f274CFC7533bE13E",
+      "chainId": 1339,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"
     },
     {
       "name": "DAI",
       "symbol": "DAI",
-      "address": "0x7A43253465bed480Ef9fdAEd06E77f98488BD8d2",
+      "address": "0x56C8627B6Eb18cf8b2585e563d3324898ddbf6f4",
       "chainId": 1339,
       "decimals": 18,
       "logoURI": "https://pancakeswap.finance/images/tokens/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png"

@@ -45,10 +45,11 @@ const StyledInput = styled(Input)`
   align-items: center;
   width: 100%;
   white-space: nowrap;
+
   background: ${({ theme }) => (theme.isDark ? '#030923' : 'white')};
   outline: none;
-  border-radius: 7px;
-  color: #ee6c4d;
+  border-radius: 25px;
+  color: #fff;
   border: 0px solid ${({ theme }) => (theme.isDark ? 'rgba(0, 0, 0, 0.5)' : 'rgb(238, 217, 204)')};
   appearance: none;
   font-size: 15px;

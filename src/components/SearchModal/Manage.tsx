@@ -24,7 +24,7 @@ export default function Manage({
   const { t } = useTranslation()
 
   return (
-    <ModalBody>
+    <div>
       <ButtonMenu
         activeIndex={showLists ? 0 : 1}
         onItemClick={() => setShowLists((prev) => !prev)}
@@ -40,6 +40,6 @@ export default function Manage({
       ) : (
         <ManageTokens setModalView={setModalView} setImportToken={setImportToken} />
       )}
-    </ModalBody>
+    </div>
   )
 }

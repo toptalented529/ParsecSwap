@@ -28,20 +28,23 @@ const StyledInput = styled(Input)`
   white-space: nowrap;
   background: ${({ theme }) => (theme.isDark ? '#030923' : 'white')};
   outline: none;
-  border-radius: 7px;
+  border-radius: 25px;
   color: #ee6c4d;
   border: 1px solid ${({ theme }) => (theme.isDark ? 'rgba(0, 0, 0, 0.5)' : 'rgb(238, 217, 204)')};
   appearance: none;
   font-size: 15px;
   transition: border 100ms ease 0s;
   ::placeholder {
-    color: #b9b9b999;
+    color: #FFF;
+    font-family:Poppins;
+    font-weight: lighter;
   }
   &:focus:not(:disabled) {
     box-shadow: none;
   }
 `
 const StyledText = styled.span`
+  font-family:Poppins;
   color: ${({ theme }) => (theme.isDark ? '#98a7ab' : '#3a4651')};
 `
 

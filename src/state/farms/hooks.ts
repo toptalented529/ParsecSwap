@@ -99,6 +99,6 @@ export const usePriceBnbBusd = (): BigNumber => {
 }
 
 export const usePriceColaBusd = (): BigNumber => {
-  const colaBnbFarm = useFarmFromPid(251)
-  return new BigNumber(colaBnbFarm.token.busdPrice)
+  const governanceTokenBnbFarm = useFarmFromPid(251)
+  return new BigNumber(governanceTokenBnbFarm.token.busdPrice)
 }

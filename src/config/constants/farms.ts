@@ -9,7 +9,7 @@ const farms: FarmConfig[] = [
     pid: 251,
     lpSymbol: 'MOS-UNE LP',
     lpAddresses: {
-      1339: '0x76F0459c28b3Cc4b2Dae8584A5595122Eef4998d',
+      1339: '0x2Ec14D4bBFaFB2B7554A3C8447EE19c52B42A34C',
       56: '0x5BfC4278E4B24F1Da1a10f51c4800b5AAa43d1B4',
     },
     token: tokens.mos,

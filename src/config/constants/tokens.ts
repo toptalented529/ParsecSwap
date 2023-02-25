@@ -3,14 +3,14 @@ import { ChainId, Token } from 'parsec-swap-sdk'
 export const COLA: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0xdFe5e9286297e47f7026BD193573dbCF303E7019',
     18,
     'COLA',
     'ZilionixxSwap Token',
   ),
   [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
-    '0x9F2ADF0536656f9ca6dfFD2060156Fd9bF75baB7',
+    '0xdFe5e9286297e47f7026BD193573dbCF303E7019',
     18,
     'COLA',
     'ZilionixxSwap Token',
@@ -88,7 +88,7 @@ const tokens = {
     symbol: 'Parsec',
     address: {
       56: '0x45870C2b385EAC7ffb1342600fAc2Ad70C62fd80',
-      1339: '0xfeae27388A65eE984F452f86efFEd42AaBD438FD',
+      1339: '0xc4aae51F841b739253F7aDC29031E06814549747',
     },
     decimals: 18,
     projectLink: 'https://matchaswap.zilionixx.com/',
@@ -97,7 +97,7 @@ const tokens = {
     symbol: 'USDT',
     address: {
       56: '0x55d398326f99059ff775485246999027b3197955',
-      1339: '0xF5745d85f49325Fb6E3Eb1bAc77045F39808dAE1',
+      1339: '0xDAFC7D2C8577887eD540F948c991aA3A39eC7f87',
     },
     decimals: 18,
     projectLink: 'https://matchaswap.zilionixx.com/',
@@ -184,7 +184,8 @@ const tokens = {
     projectLink: 'https://matchaswap.zilionixx.com/',
   },
   dai: {
-    address: { 56: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 1339: '0x7A43253465bed480Ef9fdAEd06E77f98488BD8d2' },
+    address: { 56: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
+     1339: '0x56C8627B6Eb18cf8b2585e563d3324898ddbf6f4' },
     decimals: 18,
     symbol: 'DAI',
     projectLink: 'https://matchaswap.zilionixx.com/',
@@ -221,7 +222,7 @@ const tokens = {
   },
   mos: {
     address: { 56:'',
-    1339:'0xdFe5e9286297e47f7026BD193573dbCF303E7019' },
+    1339:'0xB394A074d79E16607f70A8784a6D17bB7e967613' },
     decimals: 18,
     symbol: 'MOS',
     projectLink: 'https://matchaswap.zilionixx.com/',
@@ -574,10 +575,10 @@ const tokens = {
     symbol: 'FRONT',
     projectLink: 'https://matchaswap.zilionixx.com/',
   },
-  btcst: {
-    address: { 56: '0x78650B139471520656b9E7aA7A5e9276814a38e9', 1339: '' },
+  btc: {
+    address: { 56: '0x78650B139471520656b9E7aA7A5e9276814a38e9', 1339: '0x8d9e56AAE78E98Ab7d4C39f8f274CFC7533bE13E' },
     decimals: 17,
-    symbol: 'BTCST',
+    symbol: 'uBTC',
     projectLink: 'https://matchaswap.zilionixx.com/',
   },
   bscx: {
@@ -730,8 +731,8 @@ const tokens = {
     symbol: 'DUSK',
     projectLink: 'https://matchaswap.zilionixx.com/',
   },
-  beth: {
-    address: { 56: '0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B', 1339: '' },
+  ueth: {
+    address: { 56: '0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B', 1339: '0x881D1cB339FD2F02a0bF2b237d674C32BE7ACBBC' },
     decimals: 18,
     symbol: 'BETH',
     projectLink: 'https://matchaswap.zilionixx.com/',

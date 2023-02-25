@@ -17,6 +17,8 @@ const Menu = (props) => {
   const { profile } = useProfile()
   const { currentLanguage, setLanguage, t } = useTranslation()
 
+  console.log("66666666666666666666666666666",Number(cakePriceUsd))
+
   return (
     <UikitMenu
       account={account}

@@ -51,15 +51,28 @@ border: solid 0.5px #fff;
 background-color: #312c47;
 `;
 
+
+const StyledDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
+`;
+
+
+
 const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   children,
   ...props
 }) => {
   return (
     <StyledPage {...props}>
-      <div style ={{display:"flex",flexDirection:"row"}}>
-       <Text fontSize="35px" color="#fff">Make a Swap with &nbsp;</Text> <Text fontSize="35px" color="#d4307a">Parsec</Text>
-       </div>
+     <StyledDiv>
+       <Text fontSize="35px" color="#fff">Make a Swap with &nbsp;</Text> 
+       <Text style={{"alignSelf":"center"}} fontSize="35px" color="#d4307a">Parsec</Text>
+       </StyledDiv>
        <Text fontSize="16px" color="#d9d9d9" style ={{margin:"1vw 4vw 3vw 6vw"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Text>
       <Div>
         <Settings>
@@ -69,9 +82,10 @@ const Page: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
       </Div>
       <SDiv>  
         <img src="/diamond.png" alt="diamond" style ={{zIndex:"4",width:"105px",height:"107px",marginTop:"-30px"}} />
-      <div style ={{display:"flex",flexDirection:"row", paddingLeft:"65px"}}>
-       <Text fontSize="20px" color="#fff">Lorem ipsum lorem &nbsp;</Text> <Text fontSize="20px" color="#d4307a">Parsec</Text>
-       </div>
+      <StyledDiv style={{paddingLeft:"64px"}}>
+       <Text fontSize="20px" color="#fff">Lorem ipsum lorem &nbsp;</Text> 
+       <Text fontSize="20px" color="#d4307a">Parsec</Text>
+       </StyledDiv>
       </SDiv>
       <Flex flexGrow={1} />
     </StyledPage>
